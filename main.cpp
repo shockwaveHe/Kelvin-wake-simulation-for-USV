@@ -49,7 +49,7 @@ int main()
     cout << "time:" << (double)(end - start) / CLOCKS_PER_SEC << endl;
     /*Store the data to csv file*/
     /* Use Matlab script to visualize the data */
-    grid.outputData("/home/yao/KelvinWake_all/scrpit/2m.csv");
+    grid.outputData("/scrpit/2m.csv");
     cout << "Finish importing data" << endl;
     return 0;
 }
