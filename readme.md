@@ -45,10 +45,12 @@ Specific steps
 ```
 shipCourse::expand()
 ```
+Every ship position is in the frame of your generated surface gird.
 4. Output wake data to surface grid using 
 ```
 shipCourse::outputDataToGrid(surfaceGrid)
 ```
+Every point (x,y) is in the frame of your generated surface gird.
 5. Store wake data to .csv file
 ```
 surfaceGrid::outputData(filename)
@@ -57,7 +59,8 @@ surfaceGrid::outputData(filename)
 ```
 shipCourse::getElevation(x,y)
 ```
-If there are multiple ships, you should itter all the ship courses.
+If there are multiple ships, you should itter all the ship courses. 
+Every point (x,y) is in the frame of your generated surface gird.
 
 ##
 **Running the example**
