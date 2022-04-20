@@ -39,7 +39,7 @@ int main()
 {
     float dx = 0.02;
     float dy = 0.02;
-    string filename = "/home/yao/KelvinWake_all/scrpit/cal0_75m.csv";
+    string filename = "/scrpit/cal0_75m.csv";
     ofstream ofile;
     ofile.open(filename.c_str());
     for (float x=0;x<20;x+=dx)
