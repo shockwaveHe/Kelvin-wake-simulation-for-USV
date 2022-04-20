@@ -81,7 +81,7 @@ Steps:
    ```
  $ ./calculated_example
  ```
- 4. The generated wake data will be store in .csv files. Use Matlab script to visualize the results. We provide the visualization scripts in the script folder.
+ 4. The generated wake data will be store in .csv files. Use Matlab script to visualize the results. We provide the visualization scripts in the script folder. You should specify the .csv file name in the script.
  
  ##
  **Sample results**
