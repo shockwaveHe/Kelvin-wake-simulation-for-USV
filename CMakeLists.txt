@@ -7,7 +7,6 @@ project(KW_example  LANGUAGES CXX CUDA)
 #   ${CUDA_INCLUDE_DIRS}
 # )
 add_executable(KW_example
-    influencedpoint.cpp
     influencingpoint.cpp
     shipcourse.cpp
     surfacegrid.cpp
@@ -15,7 +14,6 @@ add_executable(KW_example
     # integration.cu
 
     add_executable(calculated_example
-    influencedpoint.cpp
     influencingpoint.cpp
     shipcourse.cpp
     surfacegrid.cpp
