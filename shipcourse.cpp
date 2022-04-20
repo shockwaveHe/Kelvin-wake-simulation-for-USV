@@ -104,6 +104,17 @@ void shipCourse::updateCourse(float currentTime, float x, float y)
         chain.pop_front();
     }
 }
+
+float shipCourse::getElevation(float x, float y)
+{
+    float elevation = 0;
+    for (auto i : chain)
+    {
+        elevation += i->getElevation(x,y);
+    }
+    return elevation;
+}
+
 void shipCourse::outputDataToGrid(surfaceGrid &grid)
 {
     for (auto i : chain)

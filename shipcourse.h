@@ -31,6 +31,12 @@ public:
     void updateCourse(float currentTime,float x,float y);
 
     /*
+    * Get wake elevation induced by this ship at point (x,y)
+    * input: x,y
+    * output: elevation
+    */
+    float getElevation(float x, float y);
+    /*
     * Output wake data to grid
     */
     void outputDataToGrid(surfaceGrid & grid);
