@@ -44,7 +44,7 @@ int main()
     ofile.open(filename.c_str());
     for (float x=0;x<20;x+=dx)
     {
-        for (float y=0;y<0.36*x;y+=dy)
+        for (float y=-0.36*x;y<0.36*x;y+=dy)
         {
             float ele = integrate(x,y);
             ofile<<x<<","<<y<<","<<ele<<"\n";
