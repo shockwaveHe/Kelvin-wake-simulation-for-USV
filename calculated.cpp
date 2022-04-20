@@ -4,7 +4,6 @@
     For tuning purpose
 */
 #include <iostream>
-#include "influencedpoint.h"
 #include "influencingpoint.h"
 #include "shipcourse.h"
 #include <time.h>

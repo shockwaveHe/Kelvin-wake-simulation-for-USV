@@ -3,9 +3,18 @@
 
 #include <math.h>
 #include <fstream>
-#include "influencedpoint.h"
 #include <string>
 #include "surfacegrid.h"
+
+/*Constants*/
+const float gAccelation = 9.8;
+const float pi = 3.1415926;
+const float density = 1;
+const float k_0 = -gAccelation/(pow(2,3.5)*pi*density);//negative
+const float modual = (pow(2,4.5)*k_0*pow(pi,0.5))/pow(gAccelation,0.5);//negative
+
+const float criticalPoint = 0.8165;//sqrt(6)/3 0.8164965 cosine value
+
 /* Default  tunning factors*/
 const float myCrest[] =
     {150,37.947, 26.668, 5.54987, 1.74725, -1.08316, -0.51, -0.283359, -0.166954, -0.103131,
