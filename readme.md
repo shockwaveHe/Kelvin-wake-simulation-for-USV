@@ -93,11 +93,11 @@ Steps:
  ##
  Ship speed 2m/s
  
- ![speed=2m/s](https://github.com/shockwaveHe/Kelvin-wake-simulation-for-USV/blob/main/figures/2m.pdf)
+ <img src="https://github.com/shockwaveHe/Kelvin-wake-simulation-for-USV/blob/main/figures/2m-1.png" width="300">
+ 
  
  Ship speed varies
  
- 
- ![speed varies](./figures/figure_varied.pdf)
- 
+  <img src="https://github.com/shockwaveHe/Kelvin-wake-simulation-for-USV/blob/main/figures/figure_varied-1.png" width="300">
+  
  See more in figures folder.
