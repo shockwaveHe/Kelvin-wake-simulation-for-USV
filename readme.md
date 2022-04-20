@@ -4,7 +4,7 @@
 author: Yao He
 
 ##
-Paper link and citation
+**Paper link and citation**
 ##
 
 Link: https://ieeexplore.ieee.org/document/9517533
@@ -84,6 +84,15 @@ Steps:
  4. The generated wake data will be store in .csv files. Use Matlab script to visualize the results. We provide the visualization scripts in the script folder.
  
  ##
- Sample results
+ **Sample results**
  ##
+ Ship speed 2m/s
  
+ ![speed=2m/s](https://github.com/shockwaveHe/Kelvin-wake-simulation-for-USV/blob/main/figures/2m.pdf)
+ 
+ Ship speed varies
+ 
+ 
+ ![speed varies](./figures/figure_varied.pdf)
+ 
+ See more in figures folder.
