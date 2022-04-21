@@ -13,9 +13,15 @@ add_executable(KW_example
     main.cpp)
     # integration.cu
 
-    add_executable(calculated_example
+add_executable(calculated_example
     influencingpoint.cpp
     shipcourse.cpp
     surfacegrid.cpp
     calculated.cpp)
+
+add_executable(varied_speed_example
+    influencingpoint.cpp
+    shipcourse.cpp
+    surfacegrid.cpp
+    varied_speed.cpp)
 # target_link_libraries(${PROJECT_NAME} ${CUDA_LIBRARIES})
