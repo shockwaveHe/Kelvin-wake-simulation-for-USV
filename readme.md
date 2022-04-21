@@ -88,6 +88,10 @@ Steps:
  ```
  4. The generated wake data will be store in .csv files. Use Matlab script to visualize the results. We provide the visualization scripts in the script folder. You should specify the .csv file name in the script.
  
+ 5. To see the effect when ship speed varies, run the following demo
+ ```
+ $./varied_speed_example
+ ```
  ##
  **Sample results**
  ##
